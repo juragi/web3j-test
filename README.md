@@ -1,9 +1,14 @@
 # web3j-test
 Export - Runnable JAR file
 
-java -jar <exported.jar> create <password>
-java -jar <exported.jar> balance <eth address>
-java -jar <exported.jar> send <keystore file name> <password> <eth amount> <to address>
-java -jar <exported.jar> getBlock
-java -jar <exported.jar> tx <txid>
-java -jar <exported.jar> receipt <txid>
+- java -jar _exported.jar_ create ***password***
+
+- java -jar _exported.jar_ balance ***ethAddress***
+
+- java -jar _exported.jar_ send ***keystoreFileName*** ***password*** ***ethAmount*** ***toAddress***
+
+- java -jar _exported.jar_ getBlock
+
+- java -jar _exported.jar_ tx ***txid***
+
+- java -jar _exported.jar_ receipt ***txid***
