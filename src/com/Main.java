@@ -31,7 +31,6 @@ public class Main {
 		File currentJavaJarFile = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
 		String currentJavaJarFilePath = currentJavaJarFile.getAbsolutePath();
 		savePath = currentJavaJarFilePath.replace(currentJavaJarFile.getName(), "keystore/");
-		System.out.println(savePath);
 		
 		String command = args[0];
 		if(command.equals("create")) {
